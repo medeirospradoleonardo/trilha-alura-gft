@@ -1,12 +1,12 @@
-package br.com.alura.loja.orçamento;
+package br.com.alura.loja.orcamento;
 
 import java.math.BigDecimal;
 
-public class Orçamento {
+public class Orcamento {
     
     private BigDecimal valor;
 
-    public Orçamento(BigDecimal valor) {
+    public Orcamento(BigDecimal valor) {
         this.valor = valor;
     }
 
