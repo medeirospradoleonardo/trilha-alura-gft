@@ -9,7 +9,7 @@ import br.com.alura.loja.orcamento.RegistroDeOrcamento;
 public class TestesAdapter {
 
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(BigDecimal.TEN, 1);
+        Orcamento orcamento = new Orcamento(BigDecimal.TEN);
         orcamento.aprovar();
         orcamento.finalizar();
 
